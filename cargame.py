@@ -1,22 +1,18 @@
 command = ""
 while command != "quit":
-  command = input("> ").lower()
-  if command == "start":
-    print("starting...")
-  elif command == "stop":
-    print("pause")
-  elif command == "help":
-    print('''
-    start   start playing your game
-    stop    pause the game
-    quit    exit game
-    ''')
-  elif command == "quit":
-    break
-  else:
-    print("sorry, i dont understand")
-    
-  
-  
-  
-  
+    command = input('> ').lower()
+    if command == "start":
+        print('car started...Ready to go!')
+    elif command == "help":
+        print('''
+        start     to start the car
+        stop      to stop the car
+        quit       to end the game
+        ''')
+    elif command == "stop":
+        print('car stopped.')
+    elif command == "quit":
+        break
+    else:
+        print('I dont understand')
+ 
